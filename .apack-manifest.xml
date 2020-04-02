@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+ <asx:values>
+  <DATA>
+   <GROUP_ID>github.com/jrodriguez-abapGit-Testing</GROUP_ID>
+   <ARTIFACT_ID>package3</ARTIFACT_ID>
+   <VERSION>1.0.0</VERSION>
+   <REPOSITORY_TYPE>abapGit</REPOSITORY_TYPE>
+   <GIT_URL>https://github.com/jrodriguez-abapGit-Testing/package3.git</GIT_URL>
+   <DEPENDENCIES>
+    <item>
+     <GROUP_ID>github.com/jrodriguez-abapGit-Testing</GROUP_ID>
+     <ARTIFACT_ID>package1</ARTIFACT_ID>
+     <VERSION>1.0.1</VERSION>
+     <GIT_URL>https://github.com/jrodriguez-abapGit-Testing/package1.git</GIT_URL>
+    </item>
+    <item>
+     <GROUP_ID>github.com/jrodriguez-abapGit-Testing</GROUP_ID>
+     <ARTIFACT_ID>package2</ARTIFACT_ID>
+     <VERSION>1.0.1-rc.3</VERSION>
+     <GIT_URL>https://github.com/jrodriguez-abapGit-Testing/package2.git</GIT_URL>
+    </item>
+    <item>
+     <GROUP_ID>github.com/jrodriguez-abapGit-Testing</GROUP_ID>
+     <ARTIFACT_ID>just-for-testing</ARTIFACT_ID>
+     <VERSION>1.5.4-beta</VERSION>
+     <GIT_URL>https://github.com/jrodriguez-abapGit-Testing/just-for-testing.git</GIT_URL>
+    </item>
+   </DEPENDENCIES>
+  </DATA>
+ </asx:values>
+</asx:abap>
